@@ -1,5 +1,40 @@
 {
-  "devDependencies": {
-    "sass": "^1.54.0"
-  }
+  "name": "griddy",
+  "version": "1.0.0",
+  "description": "Website example using css grid",
+  "main": "index.js",
+  "dependencies": {
+    "braces": "^3.0.2",
+    "binary-extensions": "^2.2.0",
+    "chokidar": "^3.5.3",
+    "anymatch": "^3.1.2",
+    "fsevents": "^2.3.2",
+    "fill-range": "^7.0.1",
+    "is-binary-path": "^2.1.0",
+    "immutable": "^4.1.0",
+    "is-glob": "^4.0.3",
+    "glob-parent": "^5.1.2",
+    "normalize-path": "^3.0.0",
+    "is-extglob": "^2.1.1",
+    "is-number": "^7.0.0",
+    "readdirp": "^3.6.0",
+    "sass": "^1.54.0",
+    "to-regex-range": "^5.0.1",
+    "picomatch": "^2.3.1",
+    "source-map-js": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/girlkaaaay/Griddy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/girlkaaaay/Griddy/issues"
+  },
+  "homepage": "https://github.com/girlkaaaay/Griddy#readme"
 }
