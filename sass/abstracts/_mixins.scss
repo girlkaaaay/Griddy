@@ -1,0 +1,9 @@
+@mixin img-contain {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+@mixin img-cover {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
