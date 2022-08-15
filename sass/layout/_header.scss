@@ -3,5 +3,34 @@
   width: auto;
   margin: 1rem;
   background-color: $color-main;
+  display: flex;
+  justify-content: center;
   border: 3px solid purple;
+
+  &__navbar {
+    border: 3px solid blue;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1rem;
+    background-image: url(/img/logo.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    align-items: flex-start;
+  }
+
+  li {
+    border: 3px solid red;
+    margin: .3rem;
+    font-family: 'Comfortaa', cursive;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(160, 10, 160);
+  }
+}
+
+a:hover {
+  color: $color-menu-hover;
 }
