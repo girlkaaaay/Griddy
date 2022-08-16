@@ -1,7 +1,12 @@
 .footer {
-  border: 3px solid red;
   height: 10vh;
   width: auto;
   margin: 1rem;
+  align-items: center;
+  display: flex;
+  justify-content: center;
   background-color: $color-main;
+  background-image: url(/img/logo.png);
+  background-repeat: no-repeat;
+  background-position: center;
 }
