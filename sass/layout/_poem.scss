@@ -1,0 +1,68 @@
+.poem {
+  border: 6px solid purple;
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 3rem;
+
+
+  &__grid {
+    padding: 1.2rem;
+    margin: 0.8rem;
+    font-family: "Dosis", sans-serif;
+
+    &--1 {
+      border: 1px solid red;
+      text-align: left;
+      background: url(/img/poem-img-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--2 {
+      border: 1px solid green;
+      text-align: center;
+      background: url(/img/poem-img-2.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--3 {
+      border: 1px solid yellowgreen;
+      text-align: right;
+      background: url(/img/poem-img-3.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--4 {
+      border: 1px solid blue;
+      text-align: left;
+      background: url(/img/poem-img-4.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--5 {
+      border: 1px solid pink;
+      text-align: center;
+      background: url(/img/poem-img-5.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    &--6 {
+      border: 1px solid black;
+      text-align: right;
+      background: url(/img/poem-img-6.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  }
+}
