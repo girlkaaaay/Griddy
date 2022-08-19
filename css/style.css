@@ -277,7 +277,8 @@ a:hover {
   .poem__grid {
     padding: 1.2rem;
     margin: 0.8rem;
-    font-family: "Dosis", sans-serif; }
+    font-family: "Dosis", sans-serif;
+    font-weight: 600; }
     .poem__grid--1 {
       border: 1px solid red;
       text-align: left;
