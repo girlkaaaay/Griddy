@@ -1,11 +1,13 @@
 .contact__section {
-  border: 3px solid orange;
   padding: 12rem 0;
   margin: 3rem;
+
+  @include responsive(tab-port){
+    padding: 15px;
+  }
 }
 
 .contact {
-  border: 2px solid red;
   background-image: linear-gradient(
       75deg,
       rgba($color-white, 0.9) 0%,
@@ -13,17 +15,29 @@
       transparent 40%
     ),
     url(/img/contact.jpg);
-  background-size: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 3px;
   box-shadow: 0 1.5rem 3rem rgba($color-black, 0.5);
 
-  height: 50rem;
+  @include responsive(tab-port){
+    background-image: linear-gradient(
+      to right,
+      rgba($color-white, 0.9) 0%,
+      rgba($color-white, 0.9) 50%,
+    ),
+    url(/img/contact.jpg);
+  }
 
   &__form {
     width: 50%;
     padding: 6rem;
     display: flex;
     justify-content: center;
+
+    @include responsive(tab-port) {
+      width: 100%;
+    }
   }
 }
 
@@ -44,6 +58,10 @@
     border-bottom: 4px solid transparent;
     width: 90%;
     display: block;
+
+    @include responsive(tab-port){
+      width: 100%;
+    }
 
     &:focus {
       outline: none;
