@@ -8,5 +8,26 @@
   background-color: $color-main;
   background-image: url(/img/logo.png);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 80%;
+
+
+  &__links {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+
+    &:hover {
+      color: $color-menu-hover;
+    }
+  }
+
+  &__link {
+    padding: 5px;
+  }
+}
+
+li a {
+  text-decoration: none;
+  color: $color-nav;
 }
