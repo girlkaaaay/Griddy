@@ -16,6 +16,10 @@
     background-repeat: no-repeat;
     background-position: bottom;
     align-items: flex-start;
+    
+    @include responsive(phone) {
+      margin: 2rem;
+    }
 
     @include responsive(desktop) {
       margin: 1rem;

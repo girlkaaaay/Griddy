@@ -292,6 +292,9 @@ li a {
     background-repeat: no-repeat;
     background-position: bottom;
     align-items: flex-start; }
+    @media only screen and (max-width: 37.5em) {
+      .header__navbar {
+        margin: 2rem; } }
     @media only screen and (min-width: 112.5em) {
       .header__navbar {
         margin: 1rem; } }
