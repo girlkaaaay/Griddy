@@ -314,7 +314,8 @@ a:hover {
     padding: 1.2rem;
     margin: 0.8rem;
     font-family: "Dosis", sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.5); }
     .poem__grid--1 {
       text-align: left;
       background-image: url(/img/poem-img-1.jpg);
