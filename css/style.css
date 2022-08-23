@@ -267,7 +267,8 @@ h2 {
     display: flex;
     justify-content: center;
     list-style: none;
-    text-decoration: none; }
+    text-decoration: none;
+    padding-bottom: 25px; }
     .footer__links:hover {
       color: #1dbb96; }
   .footer__link {
