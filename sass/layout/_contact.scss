@@ -14,7 +14,7 @@
       rgba($color-white, 0.9) 50%,
       transparent 40%
     ),
-    url(./img/contact.jpg);
+    url(/img/contact.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 3px;
@@ -27,7 +27,7 @@
         rgba($color-white, 0.9) 0%,
         rgba($color-white, 0.9) 50%
       ),
-      url(./img/contact.jpg);
+      url(/img/contact.jpg);
   }
 
   &__form {
